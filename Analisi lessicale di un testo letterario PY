@@ -1,0 +1,32 @@
+# exercises
+📝 Esercizio: Analisi lessicale di un testo letterario
+Obiettivo: Utilizzare Python per analizzare un testo letterario e ottenere statistiche lessicali (conteggio delle parole, parole uniche, frequenza delle parole più comuni, ecc.).
+
+✅ Traccia:
+Scarica un'opera di dominio pubblico da Project Gutenberg (ad esempio, La Divina Commedia o un'opera di Shakespeare).
+
+Scrivi uno script Python che:
+Legga il contenuto del file.
+Pulisca il testo (rimuovendo punteggiatura e rendendo tutto minuscolo).
+Divida il testo in parole.
+
+Calcoli:
+
+Il numero totale di parole.
+Il numero di parole uniche.
+Le 10 parole più frequenti (escludendo stopwords).
+
+(Opzionale) Visualizzi un grafico a barre con la frequenza delle parole più comuni.
+
+💻 Suggerimenti tecnici:
+Puoi usare queste librerie:
+
+collections.Counter per contare le parole.
+string.punctuation per rimuovere la punteggiatura.
+matplotlib o seaborn per visualizzare grafici.
+nltk per rimuovere le stopwords (parole comuni come "e", "il", "che", ecc.).
+
+🧠 Spunti di riflessione:
+Quali parole risultano più frequenti? Che tipo di lessico caratterizza l'opera?
+Come cambierebbe l'analisi confrontando due testi diversi (es. Dante vs. Manzoni)?
+È possibile fare una "firma stilistica" dell'autore in base all’uso delle parole?
